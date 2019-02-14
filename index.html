@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Download Kolaborasi Dokumen</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body class="container">
+	<div class="row">
+		<div id='judul' class="col-lg-6 col-md-12 col-sm-12">
+			<h2>Kolaborasi Dokumen</h2>
+		</div>
+		<div id='gambar' class="col-lg-6 col-md-12 col-sm-12">
+				<div id="demo" class="carousel slide" data-ride="carousel">
+
+				<!-- Indicators -->
+				<ul class="carousel-indicators">
+				<li data-target="#demo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+				</ul>
+
+				<!-- The slideshow -->
+				<div id='image' class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="img/home.png" alt="Home" width="1100" height="500">
+					</div>
+					<div class="carousel-item">
+						<img src="img/pchat.png" alt="Private Chat" width="1100" height="500">
+					</div>
+					<div class="carousel-item">
+						<img src="img/edit.png" alt="Edit Document" width="1100" height="500">
+					</div>
+					<div class="carousel-item">
+						<img src="img/dchat.png" alt="Dokumen Chat" width="1100" height="500">
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+				</div>
+		</div>
+		<div class="col-lg-6 col-md-12 col-sm-12">
+			<div id='deskripsi' class="col-lg-12 col-md-12 col-sm-12">
+				<h3 id='subjudul'>Real-time dengan Socket.io</h3>
+				Kolaborasi Dokumen adalah aplikasi untuk mengedit dokumen,
+				bekerja secara realtime, bisa digunakan untuk chat private atau chat grup dan
+				mendownload dokumen dalam format pdf
+
+			</div>
+			<div id='download'class="col-lg-12 col-md-12 col-sm-12">
+				<button class="btn btn-success">Get APK</button>
+				<button class="btn btn-success"><a href="https://document04.herokuapp.com" target="_blank">Open in browser</a> </button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
